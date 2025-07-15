@@ -1,0 +1,155 @@
+body
+    {
+            font-family: 'Poppines',sans-serif;
+            text-align: center;
+            background-color: bisque;
+            color: rgba(75, 53, 53, 0.679);
+            line-height: 1.6;
+            margin: auto;
+            padding: 40px;
+     }
+        header 
+        {
+            background: linear-gradient(to right, rgb(57, 34, 34),blue)
+        }
+        footer
+        {
+            background: linear-gradient(to right, green,blue);
+        }
+        header,footer
+        {
+            color:whitesmoke;
+            padding: 20px 0;
+        }
+        h1,h2
+        {
+            font-weight: 700;
+          color: rgb(233, 233, 16);  
+        }
+        p{
+            font-size: medium;
+        }
+        iframe
+        {
+            border: #ce0ece;
+        }
+        a{
+            color: blue;
+            text-decoration: underline;
+        }
+        a:hover
+        {
+            color: darkgoldenrod;
+            text-decoration: underline;
+        }
+        section
+        {
+            margin: 20px auto;
+            padding: 20px;
+            background-color: white;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            border-radius: 8px;
+            max-width: 800px;
+        }
+        img
+        {
+            width: 190px;
+            height: 200px;
+            border-radius: 70%;
+            box-shadow: 0 25px 15px rgba(0,0,0,0.2);
+            object-fit: cover;
+        }
+        form
+        {
+            max-width: 500px; 
+            margin: 20px auto;
+            padding: 20px;
+            background: blanchedalmond;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+
+        }
+        form input[type="text"],
+        form input[type="email"],
+        form textarea
+        {
+            width: calc(100% - 20px);
+            padding: 10px;
+            margin-bottom: 20px;
+            border: 1px solid#ccc;
+            border-radius: 5px;
+        }
+
+        .skills-list {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            gap: 30px;
+        }
+
+        .skills-list li {
+            list-style-type: none;
+            background: #c1c6ca;
+            padding: 10px 15px;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            animation: bounce 1s infinite alternate;
+        }
+
+
+        from button
+        {
+            background: #007bff;
+            color: #f00606;
+            border: 0;
+            padding: 10px 20px;
+            border-radius: 15px;
+            cursor: pointer;
+            font-size: 48px;
+        }
+        
+        form button:hover
+        {
+            background: #007bff;
+        }
+        @keyframes bounce {
+            from {
+                transform: translateY(0);
+            }
+            to{
+                transform: translateY(-10px);
+            }
+        }
+        .horizontal-scroll
+        {
+            overflow-x: hidden;
+            width: 95%;
+        }
+        .icon-container{
+            display: flex;
+            animation: scrollAnimation 10s linear infinite;
+            width: max-content;
+        }
+        .icon-container img 
+        {
+            width: 60px;
+            height: 60px;
+            margin-right: 20px;
+        }
+        .horizontal-scroll img
+        {
+            width: 60px;
+            height: 60px;
+            margin-right: 20px;
+        }
+        @keyframes scrollAnimation
+        {
+            0% {
+                transform: translateX(100vw);
+            }
+            100%
+            {
+                transform: translateX(-100%);
+            }
+        }
+
+        /*video link https://www.youtube.com/watch?v=i68lb3w0r2I&t=520s*/
