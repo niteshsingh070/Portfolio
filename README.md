@@ -37,7 +37,8 @@ Hi, I’m **Nitesh Singh**, a B.Tech Computer Science student from United Instit
 ## 📸 Preview
 
 [Portfolio Preview]
-("C:\Users\singh\Pictures\Screenshots\Screenshot 2025-08-03 140153.png")
+<img width="937" height="799" alt="image" src="https://github.com/user-attachments/assets/1538fd69-7ec6-4a1a-8906-e5834908d373" />
+
 
 ---
 
